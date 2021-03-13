@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REEN</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/32ae8fae4f.js" crossorigin="anonymous"></script>
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <!-- AOS CSS Link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!--===============================================
+                        Header Section
+    =======================================================-->
+
+    <header class="top-section">
+        <!-------------------
+                mini-header
+        --------------------->
+        <div class="mini-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="contact-icon">
+                            <a href="#"><i class="fa fa-envelope"></i> info@reen.com</a>
+                            <a href="#"><i class="fa fa-mobile"></i> +00 (123) 456 78 90</a>
+                        </div>
+                    </div>
+                    <!-- col ends -->
+                    <div class="col-md-6 hide-links">
+                        <div class="social-icons">
+                            <ul class="d-flex justify-content-end social-list">
+                                <li class="social-item"><a href="#" class="social-link facebook"><i
+                                            class="fa fa-facebook-f"></i></a></li>
+                                <li class="social-item"><a href="#" class="social-link google"><i
+                                            class="fa fa-google-plus"></i></a></li>
+                                <li class="social-item"><a href="#" class="social-link twitter"><i
+                                            class="fa fa-twitter"></i></a></li>
+                                <li class="social-item"><a href="#" class="social-link pinterest"><i
+                                            class="fa fa-pinterest-p"></i></a></li>
+                                <li class="social-item"><a href="#" class="social-link behance"><i
+                                            class="fa fa-behance"></i></a></li>
+                                <li class="social-item"><a href="#" class="social-link dribble"><i
+                                            class="fa fa-dribbble"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- col ends -->
+                </div> <!-- row ends -->
+            </div> <!-- container ends -->
+        </div> <!-- mini-header ends -->
+
+        <!-------------------
+                main-header
+        --------------------->
+        <div class="container">
+            <div class="main-header">
+                <div class="row">
+                    <div class="col-lg-3 col-6">
+                        <div class="logo">
+                            <img src="img/logo.png" alt="logo" class="img-fluid">
+                        </div>
+                    </div>
+
+                    <div class="col-6 hide">
+                        <button class="toggle-btn" role="button">
+                            <span class="hamburger"></span>
+                        </button>
+                    </div>
+                    <!-- col ends -->
+                    <div class="col-lg-9">
+                        <nav class="navigation">
+
+                            <ul class="nav-menu">
+                                <!-- sub-menu -->
+                                <li class="nav-item sub-menu">
+                                    <a href="#" class="nav-link">Home</a>
+                                    <ul class="sub-menu-list">
+                                        <li class="sub-item"><a href="#" class="sub-link">Agency Style</a></li>
+                                        <li class="sub-item"><a href="#" class="sub-link">Product style</a></li>
+                                        <li class="sub-item"><a href="#" class="sub-link">Service style</a></li>
+                                        <li class="sub-item"><a href="#" class="sub-link">Portfolio Style</a></li>
+                                        <li class="sub-item"><a href="#" class="sub-link">Showcase Style</a></li>
+                                    </ul>
+                                </li>
+                                <!-- sub-menu ends -->
+                                <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Pages</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">features</a></li>
+                                <!-- mega-open-btn -->
+                                <li class="nav-item mega-open-btn"><a href="#" class="nav-link">Mega Menu</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                                <li class="nav-item ml-auto my-auto search"><a href="#" class="nav-link"><i
+                                            class="fa fa-search" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </nav> <!-- navigation ends -->
+                    </div>
+                    <!-- col ends -->
+                </div> <!-- row ends -->
+
+                <!-------------------
+                        Mega Menu
+                --------------------->
+                <div class="mega-Menu">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-6">
+                            <div class="focus">
+                                <h2 class="mega-titles">Focus On</h2>
+                                <div class="hover">
+                                    <img src="img/mega-thumb-1.png" alt="mega thumb 1" class="img-fluid">
+                                </div>
+                                <p>Consed quodips ameniat empernam que apid cust quas molor eatis numa estio.</p>
+                                <button class="btn mega-btn btn-md">View Project</button>
+                            </div>
+                        </div>
+                        <!-- col ends -->
+                        <div class="col-xl-3 col-lg-6">
+                            <div class="speacial-page">
+                                <h2 class="mega-titles">Special pages</h2>
+                                <ul class="mega-list">
+                                    <li class="mega-list-item"><a href="#" class="mega-link">3 Colums Details Grid
+                                            Porfolio</a></li>
+                                    <li class="mega-list-item"><a href="#" class="mega-link">Fullscren Grid
+                                            Portfolio</a></li>
+                                    <li class="mega-list-item"><a href="#" class="mega-link">2 Coumns Grid Blog</a></li>
+                                    <li class="mega-list-item"><a href="#" class="mega-link">3 Columns Grid Blogs</a>
+                                    </li>
+                                    <li class="mega-list-item"><a href="#" class="mega-link">Blog Post with Right
+                                            Sidebar</a></li>
+                                    <li class="mega-list-item"><a href="#" class="mega-link">Side Navigation Page</a>
+                                    </li>
+                                    <li class="mega-list-item"><a href="#" class="mega-link">About Page II</a></li>
+                                    <li class="mega-list-item"><a href="#" class="mega-link">Service Page I</a></li>
+                                    <li class="mega-list-item"><a href="#" class="mega-link">Pricing Page I</a></li>
+                                    <li class="mega-list-item"><a href="#" class="mega-link">Contact Page I</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- col ends -->
+                        <div class="col-xl-3 col-lg-6">
+                            <div class="latest-work">
+                                <h2 class="mega-titles">Latest works</h2>
+
+                                <div class="mega-thumbs">
+                                    <div class="hover">
+                                        <img src="img/mega-thumb-2.png" alt="mega thumb 2" class="img-fluid">
+                                    </div>
+                                    <div class="hover">
+                                        <img src="img/mega-thumb-3.png" alt="mega thumb 3" class="img-fluid">
+                                    </div>
+                                    <div class="hover">
+                                        <img src="img/mega-thumb-4.png" alt="mega thumb 4" class="img-fluid">
+                                    </div>
+                                    <div class="hover">
+                                        <img src="img/mega-thumb-5.png" alt="mega thumb 5" class="img-fluid">
+                                    </div>
+                                    <div class="hover">
+                                        <img src="img/mega-thumb-6.png" alt="mega thumb 6" class="img-fluid">
+                                    </div>
+                                    <div class="hover">
+                                        <img src="img/mega-thumb-7.png" alt="mega thumb 7" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- col ends -->
+                        <div class="col-xl-3 col-lg-6">
+                            <div class="about-us">
+                                <h2 class="mega-titles">About us</h2>
+                                <p>Voluptat ibusaped molorporro consequ idustibus. Reressi morum ut dolessiti tem
+                                    nihicid ernatum, coria volore non pro officat ut autem accaborem conet. Omnis
+                                    peribus qui dolent praeperrum coria.</p>
+                                <p>Equam conesti occum dolorest, quae venderes quistius, comnitatur sae dinam nonseculpa
+                                    cum fugit is verciam.</p>
+                                <button class="mega-btn btn btn-md btn-success">Read More</button>
+                            </div>
+                        </div>
+                        <!-- col ends -->
+                    </div> <!-- row ends -->
+                </div> <!-- mega-Menu ends -->
+            </div> <!-- main-header ends -->
+        </div> <!-- container ends -->
+
+        <!-------------------
+            banner-section
+        --------------------->
+        <section class="banner-section">
+            <div id="banner-carousel" class="carousel slide" data-ride="carousel">
+                <!-- carousel-indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#banner-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#banner-carousel" data-slide-to="1"></li>
+                    <li data-target="#banner-carousel" data-slide-to="2"></li>
+                    <li data-target="#banner-carousel" data-slide-to="3"></li>
+                    <li data-target="#banner-carousel" data-slide-to="4"></li>
+                </ol>
+                <!-- carousel-inner -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="img/item-1.jpg" alt="First slide">
+                        <div class="carousel-caption cap-1">
+                            <h1>Made for Designers</h1>
+                            <p>Create your online portfolio in minutes with the professionally and lovingly designed
+                                REEN website template. Customize your site with versatile and easy to use features.</p>
+                            <button class="carousel-btn">Get Started Now</button>
+                        </div>
+                    </div>
+                    <!-- carousel-item ends -->
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/item-2.jpg" alt="Second slide">
+                        <div class="carousel-caption cap-2">
+                            <h1>Fresh and beautiful design</h1>
+                            <p>REEN is designed to showcase your talent and put your work in the forefront.
+                                Professionally use of typography and layout that fits your content.</p>
+                            <button class="carousel-btn">Get Started Now</button>
+                        </div>
+                    </div>
+                    <!-- carousel-item ends -->
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/item-3.jpg" alt="Third slide">
+                        <div class="carousel-caption cap-3">
+                            <h1><span class="top-heading-half">Clean and</span> <span
+                                    class="bottom-heading-half">reusable code</span></h1>
+                            <p>The clean code allows you to easily copy code blocks from content modules and past them
+                                in different places or layouts.</p>
+                            <button class="carousel-btn">Get Started Now</button>
+                        </div>
+                    </div>
+                    <!-- carousel-item ends -->
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/item-4.jpg" alt="Third slide">
+                        <div class="carousel-caption cap-4">
+                            <h1><span class="top-heading-half">Just focus on</span> <span
+                                    class="bottom-heading-half">your creativity</span></h1>
+                            <p>Take a break from messing around with heavy coding and spend your time brainstorming
+                                ideas for your next project.</p>
+                            <button class="carousel-btn">Get Started Now</button>
+                        </div>
+                    </div>
+                    <!-- carousel-item ends -->
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/item-5.jpg" alt="Third slide">
+                        <div class="carousel-caption cap-5">
+                            <h1>Showcase your content</h1>
+                            <p>With REEN you have the possibility to create websites for various contents quickly and
+                                easily. Now it's up to you!</p>
+                            <button class="carousel-btn">Get Started Now</button>
+                        </div>
+                    </div>
+                    <!-- carousel-item ends -->
+                </div> <!-- carousel-inner ends -->
+                <!-- carousel navigation -->
+                <a class="carousel-control-prev carousel-nav" href="#banner-carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon test" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next carousel-nav" href="#banner-carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon test" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div> <!-- carousel ends -->
+        </section> <!-- banner-section ends -->
+    </header> <!-- top-section ends -->
+
+
+    <!--===============================================
+                        Who We Are Section
+    =======================================================-->
+
+    <section class="who-we-are" data-aos="fade-in">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-12">
+                    <div class="headings">
+                        <h1>Beautiful. Clean. Responsive.</h1>
+                        <p>REEN is a high-quality solution for those who want a beautiful website in no time. It's
+                            fully responsive and will adapt itself to any mobile device. iPad, iPhone, Android, it
+                            doesn't matter. Your content will always looks its absolute best.</p>
+                    </div> <!-- headings ends -->
+                </div> <!-- col ends -->
+            </div> <!-- row ends -->
+            <div class="row">
+                <div class="col-lg-4 col-12">
+                    <div class="three-icon">
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="three-para">
+                        <h2>Passion</h2>
+                        <p>Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor. Laceaque
+                            quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped modis volor.
+                        </p>
+                    </div>
+                </div>
+                <!-- col ends -->
+                <div class="col-lg-4 col-12">
+                    <div class="center-box">
+                        <div class="three-icon">
+                            <i class="far fa-lightbulb"></i>
+                        </div>
+                        <div class="three-para">
+                            <h2>Creativity</h2>
+                            <p>Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor. Laceaque
+                                quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped modis
+                                volor.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- col ends -->
+                <div class="col-lg-4 col-12">
+                    <div class="three-icon">
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="three-para">
+                        <h2>Quality</h2>
+                        <p>Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor. Laceaque
+                            quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped modis volor.
+                        </p>
+                    </div>
+                </div>
+                <!-- col ends -->
+            </div> <!-- row ends -->
+        </div> <!-- container ends -->
+    </section> <!-- who-we-are ends -->
+
+
+    <!--===============================================
+                        Latest Work Section
+    =======================================================-->
+
+    <article class="latest-work-section" data-aos="zoom-in">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <header class="headings">
+                        <h1>Check out our latest works</h1>
+                        <p>Magnis modipsae que voloratati andigen daepeditem quiate re porem aut labor.</p>
+                    </header> <!-- headings ends -->
+                </div> <!-- col ends -->
+            </div>
+            <!-- row ends -->
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- cards -->
+                    <section class="cards card-1">
+                        <figure class="hover">
+                            <img src="img/img-1.png" alt="img-1" class="img-fluid">
+                        </figure>
+                        <div class="title">
+                            <h2>Grand Motel gets an identity brushup</h2>
+                            <p>Identity</p>
+                        </div>
+                    </section>
+                </div>
+                <!-- col ends -->
+                <div class="col-md-6">
+                    <!-- cards -->
+                    <section class="cards">
+                        <figure class="hover">
+                            <img src="img/img-2.png" alt="img-1" class="img-fluid">
+                        </figure>
+                        <div class="title">
+                            <h2>Fresh branding for a creative startup</h2>
+                            <p>Identity</p>
+                        </div>
+                    </section>
+                </div>
+                <!-- col ends -->
+            </div>
+            <!-- row ends -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="owl-carousel">
+                        <div class="hover d-block text-center"> <img src="img/slide-1.png" alt="slide 1"
+                                class="img-fluid"> </div>
+                        <div class="hover d-block text-center"> <img src="img/slide-2.png" alt="slide 2"
+                                class="img-fluid"> </div>
+                        <div class="hover d-block text-center"> <img src="img/slide-3.png" alt="slide 3"
+                                class="img-fluid"> </div>
+                        <div class="hover d-block text-center"> <img src="img/slide-4.png" alt="slide 4"
+                                class="img-fluid"> </div>
+                        <div class="hover d-block text-center"> <img src="img/slide-1.png" alt="slide 1"
+                                class="img-fluid"> </div>
+                        <div class="hover d-block text-center"> <img src="img/slide-2.png" alt="slide 2"
+                                class="img-fluid"> </div>
+                        <div class="hover d-block text-center"> <img src="img/slide-3.png" alt="slide 3"
+                                class="img-fluid"> </div>
+                        <div class="hover d-block text-center"> <img src="img/slide-4.png" alt="slide 4"
+                                class="img-fluid"> </div>
+                        <div class="hover d-block text-center"> <img src="img/slide-1.png" alt="slide 1"
+                                class="img-fluid"> </div>
+                        <div class="hover d-block text-center"> <img src="img/slide-2.png" alt="slide 2"
+                                class="img-fluid"> </div>
+                        <div class="hover d-block text-center"> <img src="img/slide-3.png" alt="slide 3"
+                                class="img-fluid"> </div>
+                        <div class="hover d-block text-center"> <img src="img/slide-4.png" alt="slide 4"
+                                class="img-fluid"> </div>
+                    </div>
+                </div> <!-- col ends -->
+            </div>
+            <!-- row ends -->
+        </div> <!-- container ends -->
+    </article> <!-- latest-work-section ends -->
+
+
+    <!--===============================================
+                        Latest Work Section
+    =======================================================-->
+
+    <aside class="get-in-touch" data-aos="fade-down">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="headings">
+                        <h1>Want to work with us?</h1>
+                        <p>Magnis modipsae que voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae
+                            sitiorem rest
+                            non restibusaes maio es dem tumquam.</p>
+                        <button class="git-btn">Get in touch</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+
+    <!--===============================================
+                        Footer Section
+    =======================================================-->
+
+    <footer class="footer-section" data-aos="fade-up">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <section class="about">
+                        <h2 class="footer-headings">Who we are</h2>
+                        <figure>
+                            <img src="img/footer-logo.png" alt="footer logo" class="img-fluid">
+                        </figure>
+                        <p>Magnis modipsae voloratati andigen daepeditem quiate re porem que aut labor. Laceaque
+                            eictemperum quiae sitiorem rest non restibusaes maio es dem tumquam.</p>
+                        <a href="#" class="about-more">More about us <i class="fa fa-arrow-right "></i> </a>
+                    </section>
+                </div>
+                <!-- col ends -->
+                <div class="col-lg-3 col-md-6">
+                    <section class="work">
+                        <h2 class="footer-headings">Latest Work</h2>
+                        <figure class="work-images">
+                            <div class="hover work-img">
+                                <img src="img/thumb-1.png" alt="footer thumb-1" class="img-fluid">
+                            </div>
+                            <div class="hover work-img">
+                                <img src="img/thumb-2.png" alt="footer thumb-2" class="img-fluid">
+                            </div>
+                            <div class="hover work-img">
+                                <img src="img/thumb-3.png" alt="footer thumb-3" class="img-fluid my-0">
+                            </div>
+                            <div class="hover work-img">
+                                <img src="img/thumb-4.png" alt="footer thumb-4" class="img-fluid my-0">
+                            </div>
+                        </figure>
+                    </section>
+                </div>
+                <!-- col ends -->
+                <div class="col-lg-3 col-md-6">
+                    <section class="contact">
+                        <h2 class="footer-headings">Get In Touch</h2>
+                        <p>Doloreiur quia commolu ptatemp dolupta oreprerum tibusam eumenis et consent accullignis
+                            dentibea autem inisita.</p>
+                        <div class="contact-icons">
+                            <a href="#" class="about-more"><i class="fa fa-map-marker"></i> 84 Street, City, State
+                                24813</a>
+                            <a href="#" class="about-more"><i class="fa fa-mobile"></i> +00 (123) 456 78 90</a>
+                            <a href="#" class="about-more"><i class="fa fa-envelope-o"></i> info@reen.com</a>
+                        </div>
+                    </section>
+                </div>
+                <!-- col ends -->
+                <div class="col-lg-3 col-md-6">
+                    <section class="updates">
+                        <h2 class="footer-headings">Free Updates</h2>
+                        <p>Conecus iure posae volor remped modis aut lor volor accabora incim resto explabo.</p>
+                        <div class="subscribe">
+                            <input type="email" name="" id="" class="email" placeholder="Enter your email address">
+                            <button class="subscribe-btn">Subscribe</button>
+                        </div>
+                    </section>
+                </div>
+                <!-- col ends -->
+            </div> <!-- row ends -->
+        </div> <!-- container ends -->
+
+        <section class="copyright-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="copyright">
+                            <p>© 2014 REEN. All rights reserved.</p>
+                        </div> <!-- copyright ends -->
+                    </div>
+                    <!-- col ends -->
+                    <div class="col-md-6 d-none d-sm-block">
+                        <div class="footer-menu">
+                            <ul class="footer-menu-list">
+                                <li class="footer-item"><a href="#" class="footer-links">home</a></li>
+                                <li class="footer-item"><a href="#" class="footer-links">.</a></li>
+                                <li class="footer-item"><a href="#" class="footer-links">portfolio</a></li>
+                                <li class="footer-item"><a href="#" class="footer-links">.</a></li>
+                                <li class="footer-item"><a href="#" class="footer-links">Blog</a></li>
+                                <li class="footer-item"><a href="#" class="footer-links">.</a></li>
+                                <li class="footer-item"><a href="#" class="footer-links">About</a></li>
+                                <li class="footer-item"><a href="#" class="footer-links">.</a></li>
+                                <li class="footer-item"><a href="#" class="footer-links">Services</a></li>
+                                <li class="footer-item"><a href="#" class="footer-links">.</a></li>
+                                <li class="footer-item"><a href="#" class="footer-links">Contact</a></li>
+                            </ul>
+                        </div> <!-- footer-menu-list ends -->
+                    </div>
+                    <!-- col ends -->
+                </div> <!-- row ends -->
+            </div> <!-- container ends -->
+        </section> <!-- copyright-section ends -->
+    </footer> <!-- footer-section ends -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- JQuery Link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- AOS Js Link -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- Owl Js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script>
+    <!-- Main JS -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
